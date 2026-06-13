@@ -156,15 +156,15 @@ window.CATEGORY_PAGES = {
       {
         heading: "Programs and events",
         cards: [
-          "Leadership Camp + Public Speaking 2025",
-          "Public Speaking Club 2024",
-          "Leadership Camp 2024",
-          "Public Speaking Club 2023",
-          "Leadership Camp 2023",
-          "Summer 2022",
-          "Winter 2021",
-          "Fall 2020",
-          "Spring 2020"
+          { title: "Leadership Camp + Public Speaking 2025", meta: "August 11 - August 22", href: "category.html?page=leadership-camp-2025" },
+          { title: "Public Speaking Club 2024", meta: "July 21 - August 16", href: "category.html?page=public-speaking-club" },
+          { title: "Leadership Camp 2024", meta: "Summer 2024", href: "category.html?page=leadership-camp" },
+          { title: "Public Speaking Club 2023", meta: "August - September 2023", href: "category.html?page=public-speaking-club-2023" },
+          { title: "Leadership Camp 2023", meta: "June 2023", href: "category.html?page=leadership-camp-2023" },
+          { title: "Summer 2022", meta: "July - August 2022", href: "category.html?page=summer-2022" },
+          { title: "Winter 2021", meta: "November 2021 - January 2022", href: "category.html?page=winter-2021" },
+          { title: "Fall 2020", meta: "September - December 2020", href: "category.html?page=fall-2020" },
+          { title: "Spring 2020", meta: "March - May 2020", href: "category.html?page=spring-2020" }
         ]
       }
     ]
@@ -178,17 +178,17 @@ window.CATEGORY_PAGES = {
       {
         heading: "2026 Leadership Camp Team",
         people: [
-          { name: "Mira Zhong", role: "Co-Director", bio: "Mira is a rising junior at Sharon High School who is passionate about baking, leadership, and community service. She co-founded a baking business that raised over $2,000 and serves as Head of Marketing for a nonprofit." },
-          { name: "Grace Zheng", role: "Co-Director", bio: "Grace is a rising junior at Phillips Academy Andover who founded and led Sharon Middle School's Chamber Orchestra for two years. She has experience in public speaking, teaching, and coaching." },
-          { name: "Daniel Gao", role: "Senior Instructor", bio: "Daniel is an incoming junior at Sharon High School who is nationally ranked in swimming and active in debate and public speaking. He co-founded a keyboard business and tutors younger students." },
-          { name: "Kensei Hanamura", role: "Instructor", bio: "Kensei is a rising junior at Sharon High School who is involved in environmental leadership through the Sustainable Sharon Coalition and volunteers at his Japanese school." },
-          { name: "Hanson Zhu", role: "Instructor", bio: "Hanson is an incoming junior at Sharon High School who is a nationally ranked badminton player and award-winning pianist with experience in coding, robotics, teaching, and club leadership." },
-          { name: "Hannah Eom", role: "Teaching Assistant", bio: "Hannah is an incoming junior at Sharon High School who teaches STEAM topics, assists in after-care programs, and supports nonprofit fundraising and outreach." },
-          { name: "Helen Huang", role: "Secretary", bio: "Helen is a rising sophomore at The Winsor School who has demonstrated leadership in athletics, community service, and debate." },
-          { name: "Wynne Liu", role: "Team Member", bio: "Wynne is a rising junior at Sharon High School who co-founded a club creating crafts for hospital donations and has experience teaching, planning events, and nonprofit social media work." },
-          { name: "Alyssa Liang", role: "Team Member", bio: "Alyssa is a rising 8th grader at The Winsor School who has served as a camp assistant for previous leadership programs." },
-          { name: "Charles He", role: "Team Member", bio: "Charles is a rising sophomore at Sharon High School and a swimmer at Bluefish Swim Club with coding and volunteer experience." },
-          { name: "Michelle Zheng", role: "Team Member", bio: "Michelle is a rising junior at Sharon High School who has excelled in competitive math, serves as the math lead for SMST, and is a varsity athlete." }
+          { name: "Mira Zhong", role: "Co-Director", image: "https://static.wixstatic.com/media/eab718_e6420200fd7046929e53e88a845b469d~mv2.webp/v1/fill/w_145,h_145,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image%20(7).webp", bio: "Mira is a rising junior at Sharon High School who is passionate about baking, leadership, and community service. She co-founded a baking business that raised over $2,000 and serves as Head of Marketing for a nonprofit." },
+          { name: "Grace Zheng", role: "Co-Director", image: "https://static.wixstatic.com/media/62a804_7983edae38f3446abc150f7b8fbc0527~mv2.png/v1/fill/w_143,h_143,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited_edited_edited_edited.png", bio: "Grace is a rising junior at Phillips Academy Andover who founded and led Sharon Middle School's Chamber Orchestra for two years. She has experience in public speaking, teaching, and coaching." },
+          { name: "Daniel Gao", role: "Senior Instructor", image: "https://static.wixstatic.com/media/eab718_c2c5acd97b10418a9246329eee822967~mv2.png/v1/fill/w_157,h_157,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-04-11%209_29_40%20PM.png", bio: "Daniel is an incoming junior at Sharon High School who is nationally ranked in swimming and active in debate and public speaking. He co-founded a keyboard business and tutors younger students." },
+          { name: "Kensei Hanamura", role: "Instructor", image: "https://static.wixstatic.com/media/eab718_c36beb5aa5a74074b6190766ce9d2be0~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image%20(5)_edited.jpg", bio: "Kensei is a rising junior at Sharon High School who is involved in environmental leadership through the Sustainable Sharon Coalition and volunteers at his Japanese school." },
+          { name: "Hanson Zhu", role: "Instructor", image: "https://static.wixstatic.com/media/62a804_3ef0afe7a24b4f1385659807d0965b47~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited_edited.jpg", bio: "Hanson is an incoming junior at Sharon High School who is a nationally ranked badminton player and award-winning pianist with experience in coding, robotics, teaching, and club leadership." },
+          { name: "Hannah Eom", role: "Teaching Assistant", image: "https://static.wixstatic.com/media/62a804_4a6fc60f9b224758a2a6458f35f3150e~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Hannah is an incoming junior at Sharon High School who teaches STEAM topics, assists in after-care programs, and supports nonprofit fundraising and outreach." },
+          { name: "Helen Huang", role: "Secretary", image: "https://static.wixstatic.com/media/62a804_a06e229f666f4fbda49e330f0965c834~mv2.jpg/v1/crop/x_16,y_0,w_846,h_862/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Helen is a rising sophomore at The Winsor School who has demonstrated leadership in athletics, community service, and debate." },
+          { name: "Wynne Liu", role: "Team Member", image: "https://static.wixstatic.com/media/62a804_c0255ac2714041828b0f09cbac94d1a3~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Wynne is a rising junior at Sharon High School who co-founded a club creating crafts for hospital donations and has experience teaching, planning events, and nonprofit social media work." },
+          { name: "Alyssa Liang", role: "Team Member", image: "https://static.wixstatic.com/media/62a804_1be50c9b955749d789b1b96ff5559071~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Alyssa is a rising 8th grader at The Winsor School who has served as a camp assistant for previous leadership programs." },
+          { name: "Charles He", role: "Team Member", image: "https://static.wixstatic.com/media/62a804_737b3c3ae5344759a53ec34e4e6b4af2~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Charles is a rising sophomore at Sharon High School and a swimmer at Bluefish Swim Club with coding and volunteer experience." },
+          { name: "Michelle Zheng", role: "Team Member", image: "https://static.wixstatic.com/media/62a804_c3307fabb12b497397d4d2cae734a539~mv2.png/v1/fill/w_157,h_157,al_c,lg_1,q_85,enc_avif,quality_auto/62a804_c3307fabb12b497397d4d2cae734a539~mv2.png", bio: "Michelle is a rising junior at Sharon High School who has excelled in competitive math, serves as the math lead for SMST, and is a varsity athlete." }
         ]
       },
       {
@@ -202,6 +202,202 @@ window.CATEGORY_PAGES = {
           "Founding Members"
         ]
       }
+    ]
+  },
+  "leadership-camp-2025": {
+    title: "Leadership Camp + Public Speaking 2025",
+    kicker: "Past event",
+    summary: "August 11 - August 22. A leadership camp expanded with daily public speaking practice and final student presentations.",
+    image: "https://static.wixstatic.com/media/eab718_343fe595f0844c47964b208b0801ddff~mv2.jpg/v1/fill/w_147,h_196,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Teamwork!",
+    sections: [
+      {
+        heading: "Program recap",
+        body: [
+          "Creative Classroom leader Sophie Liang headed the continuation of the 2024 summer leadership program with the 2025 Leadership Camp from August 11th-22nd.",
+          "Students learned the 8 Principles of Effective Leadership through lectures and interactive activities like posters, skits, whiteboard presentations, and discussions.",
+          "This year, public speaking was adapted into the leadership camp. Students strengthened speaking skills daily and presented final projects to parents."
+        ],
+        images: [
+          { src: "https://static.wixstatic.com/media/eab718_343fe595f0844c47964b208b0801ddff~mv2.jpg/v1/fill/w_147,h_196,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Teamwork!", caption: "Teamwork" },
+          { src: "https://static.wixstatic.com/media/eab718_c586e7e2038f4599936ea46b5e698d09~mv2.jpg/v1/fill/w_147,h_196,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Final%20Project!", caption: "Final Project" },
+          { src: "https://static.wixstatic.com/media/eab718_c498a3c9b4574a1da37d598f078124c2~mv2.jpg/v1/fill/w_147,h_83,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Class%20Bonding!", caption: "Class Bonding" }
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
+    ]
+  },
+  "public-speaking-club": {
+    title: "Public Speaking Club 2024",
+    kicker: "Past event",
+    summary: "July 21 - August 16. A practice-based online summer club for students in grades 4 to 9.",
+    image: "https://static.wixstatic.com/media/1c91a4_e0e6329e967449dd882a9b554c2172f7~mv2.png/v1/fill/w_403,h_523,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1c91a4_e0e6329e967449dd882a9b554c2172f7~mv2.png",
+    sections: [
+      {
+        heading: "Program recap",
+        body: [
+          "In 2024, Creative Classroom leader Emma Liu continued Yuyuan Huang's original Gold Award Project by leading another session of the online summer Public Speaking Club.",
+          "Students strengthened speaking skills through weekly practice, office hours, Friday night presentations, written feedback, and oral feedback from judges.",
+          "The curriculum covered body language, vocal variation, vocal expression, and character expression."
+        ],
+        images: [
+          { src: "https://static.wixstatic.com/media/1c91a4_e0e6329e967449dd882a9b554c2172f7~mv2.png/v1/fill/w_403,h_523,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/1c91a4_e0e6329e967449dd882a9b554c2172f7~mv2.png", caption: "Public Speaking Club 2024" }
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
+    ]
+  },
+  "leadership-camp": {
+    title: "Leadership Camp 2024",
+    kicker: "Past event",
+    summary: "A sister program to the successful 2023 Leadership Camp, focused on the 8 Principles of Effective Leadership.",
+    image: "https://static.wixstatic.com/media/1c91a4_d14f8f29380045839c5a7005a0ab2098~mv2.jpeg/v1/fill/w_147,h_110,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Leadership%20Team",
+    sections: [
+      {
+        heading: "Program recap",
+        body: [
+          "Creative Classroom leader Sophie Liang headed the continuation of the 2023 summer leadership program with the 2024 Leadership Camp from August 13th-23rd.",
+          "Students practiced leadership through lectures, posters, skits, whiteboard presentations, discussions, and a final project addressing an issue in their school."
+        ],
+        images: [
+          { src: "https://static.wixstatic.com/media/1c91a4_dd3d231e3e394eb79b3e42dc18b7c302~mv2.png/v1/fill/w_49,h_65,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Whiteboard%20Activity", caption: "Whiteboard Activity" },
+          { src: "https://static.wixstatic.com/media/1c91a4_d14f8f29380045839c5a7005a0ab2098~mv2.jpeg/v1/fill/w_147,h_110,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Leadership%20Team", caption: "Leadership Team" },
+          { src: "https://static.wixstatic.com/media/1c91a4_447f69d6fe234a2dbfd6aed29973f06d~mv2.jpeg/v1/fill/w_147,h_110,al_c,q_80,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/Presentation%20Practice", caption: "Presentation Practice" }
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
+    ]
+  },
+  "public-speaking-club-2023": {
+    title: "Public Speaking Club 2023",
+    kicker: "Past event",
+    summary: "August - September 2023. A free online summer speaking club and the foundation of Yuyuan Huang's Girl Scout Gold Award project.",
+    image: "https://static.wixstatic.com/media/1c91a4_79545a5392bd4a42ab5dca599b6fa209~mv2.png/v1/fill/w_600,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-07-08%20at%201.50.44%20PM.png",
+    sections: [
+      {
+        heading: "Program recap",
+        body: [
+          "In 2023, Yuyuan Huang, co-founder of Creative Classroom, provided a free online summer speaking club for Asian-American students in grades 4 to 9.",
+          "Students practiced body language, vocal variation, and character expression, then performed in Friday night presentations with feedback from mentors.",
+          "The Public Speaking Club became the foundation of Yuyuan's Gold Award project."
+        ],
+        images: [
+          { src: "https://static.wixstatic.com/media/1c91a4_79545a5392bd4a42ab5dca599b6fa209~mv2.png/v1/fill/w_600,h_279,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-07-08%20at%201.50.44%20PM.png", caption: "Public Speaking Club 2023" }
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
+    ]
+  },
+  "leadership-camp-2023": {
+    title: "Leadership Camp 2023",
+    kicker: "Past event",
+    summary: "June 2023. A one-week in-person summer camp introducing students to the 8 Principles of Effective Leadership.",
+    image: "https://static.wixstatic.com/media/1c91a4_fc7dc05adec9406f87523fffe2d94f12~mv2.png/v1/fill/w_249,h_249,fp_0.5_0.46,q_90,enc_avif,quality_auto/1c91a4_fc7dc05adec9406f87523fffe2d94f12~mv2.png",
+    sections: [
+      {
+        heading: "Program recap",
+        body: [
+          "Throughout a one-week in-person camp, students learned the 8 Principles of Effective Leadership through slideshows and interactive activities.",
+          "Students practiced proactive thinking, positive feedback, synergy, skits, whiteboard presentations, and a final project about welcoming a new student to town."
+        ],
+        images: [
+          { src: "https://static.wixstatic.com/media/1c91a4_fc7dc05adec9406f87523fffe2d94f12~mv2.png/v1/fill/w_249,h_249,fp_0.5_0.46,q_90,enc_avif,quality_auto/1c91a4_fc7dc05adec9406f87523fffe2d94f12~mv2.png", caption: "Leadership Camp 2023" },
+          { src: "https://static.wixstatic.com/media/1c91a4_221f5a75afb54377968e9e30e01d58af~mv2.png/v1/fill/w_250,h_249,fp_0.68_0.23,q_90,enc_avif,quality_auto/1c91a4_221f5a75afb54377968e9e30e01d58af~mv2.png", caption: "Camp activity" },
+          { src: "https://static.wixstatic.com/media/1c91a4_ecd09049ff4f451fb14a806e3dae8dc6~mv2.png/v1/fill/w_249,h_249,q_90,enc_avif,quality_auto/1c91a4_ecd09049ff4f451fb14a806e3dae8dc6~mv2.png", caption: "Student work" }
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
+    ]
+  },
+  "summer-2022": {
+    title: "Summer 2022",
+    kicker: "Past event",
+    summary: "July - August 2022. Session Four focused on public speaking and creative writing.",
+    image: "https://static.wixstatic.com/media/1c91a4_e72facabca824540b2d3585f65e0d47c~mv2.png/v1/fill/w_310,h_310,q_90,enc_avif,quality_auto/1c91a4_e72facabca824540b2d3585f65e0d47c~mv2.png",
+    sections: [
+      {
+        heading: "Session Four",
+        body: [
+          "After another successful session in March 2022, Creative Classroom planned a fourth session for summer 2022.",
+          "This session focused on public speaking and creative writing, two of the program's most popular class options. More than 20 students signed up for each class."
+        ],
+        images: [
+          { src: "https://static.wixstatic.com/media/1c91a4_e72facabca824540b2d3585f65e0d47c~mv2.png/v1/fill/w_310,h_310,q_90,enc_avif,quality_auto/1c91a4_e72facabca824540b2d3585f65e0d47c~mv2.png", caption: "Summer 2022" },
+          { src: "https://static.wixstatic.com/media/1c91a4_6bfc81b411b54ea7affac9602fa6a08e~mv2.png/v1/fill/w_310,h_310,q_90,enc_avif,quality_auto/1c91a4_6bfc81b411b54ea7affac9602fa6a08e~mv2.png", caption: "Class sample" },
+          { src: "https://static.wixstatic.com/media/1c91a4_ed92c098c7eb4ce99d42639ec519280b~mv2.png/v1/fill/w_310,h_310,q_90,enc_avif,quality_auto/1c91a4_ed92c098c7eb4ce99d42639ec519280b~mv2.png", caption: "Student work" }
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
+    ]
+  },
+  "winter-2021": {
+    title: "Winter 2021",
+    kicker: "Past event",
+    summary: "November 2021 - January 2022. Session Three offered the widest variety of classes so far.",
+    image: "https://static.wixstatic.com/media/1c91a4_92f918903c0d4fb8b5b6ce54d04f0d8b~mv2.png/v1/fill/w_41,h_27,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/1c91a4_92f918903c0d4fb8b5b6ce54d04f0d8b~mv2.png",
+    sections: [
+      {
+        heading: "Session Three",
+        body: [
+          "After the conclusion of another successful session in December 2020, Creative Classroom took a brief hiatus before planning a third session for November 2021.",
+          "This session included a songwriting course, astronomy course, culture and geography course, and the first public speaking course."
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
+    ]
+  },
+  "fall-2020": {
+    title: "Fall 2020",
+    kicker: "Past event",
+    summary: "September - December 2020. Session Two expanded Creative Classroom's course offerings.",
+    image: "https://static.wixstatic.com/media/1c91a4_b11a5a290e8c40beb866f5c4c351ab81~mv2.png/v1/fill/w_48,h_27,al_c,q_85,usm_0.66_1.00_0.01,blur_2,enc_avif,quality_auto/1c91a4_b11a5a290e8c40beb866f5c4c351ab81~mv2.png",
+    sections: [
+      {
+        heading: "Session Two",
+        body: [
+          "After a successful first session in early June 2020, Creative Classroom immediately began planning a second session for the new school year.",
+          "This session included creative writing, art, and Greek mythology. Many students from session one returned, and more than 30 students signed up."
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
+    ]
+  },
+  "spring-2020": {
+    title: "Spring 2020",
+    kicker: "Past event",
+    summary: "March - May 2020. The first Creative Classroom session began during the COVID-19 lockdown.",
+    image: "https://static.wixstatic.com/media/1c91a4_b7f9a8a42f37414a807f768ec5cee2d0~mv2.png/v1/fill/w_506,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-07-08%20at%204.37.33%20PM.png",
+    sections: [
+      {
+        heading: "Session One",
+        body: [
+          "The COVID-19 pandemic lockdown had just begun, and four freshmen from The Winsor School wondered what school would be like now.",
+          "They created an organization providing free online education for elementary and middle school students, with an optional fundraiser for Massachusetts General Hospital's COVID-19 relief fund.",
+          "The first session had around 20 students signed up for English, math, and history classes, and nearly $600 was raised for MGH in the first month."
+        ],
+        images: [
+          { src: "https://static.wixstatic.com/media/1c91a4_b7f9a8a42f37414a807f768ec5cee2d0~mv2.png/v1/fill/w_506,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-07-08%20at%204.37.33%20PM.png", caption: "Spring 2020" },
+          { src: "https://static.wixstatic.com/media/1c91a4_f0eb1e62e2064db3b3f48a88d52e30fc~mv2.png/v1/fill/w_417,h_297,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202024-07-08%20at%204.37.45%20PM.png", caption: "Early class materials" }
+        ]
+      }
+    ],
+    actions: [
+      { label: "Back to past events", href: "category.html?page=past-events", style: "secondary" }
     ]
   },
   "partners": {

@@ -48,14 +48,47 @@ function renderSection(section) {
 
   if (section.cards?.length) {
     const cards = element("div", "category-card-grid");
-    section.cards.forEach((item) => cards.append(element("div", "category-mini-card", item)));
+    section.cards.forEach((item) => {
+      if (typeof item === "string") {
+        cards.append(element("div", "category-mini-card", item));
+        return;
+      }
+
+      const card = item.href
+        ? element("a", "category-mini-card linked-card")
+        : element("div", "category-mini-card");
+      if (item.href) card.href = item.href;
+      card.append(element("strong", "", item.title));
+      if (item.meta) card.append(element("span", "", item.meta));
+      cards.append(card);
+    });
     article.append(cards);
+  }
+
+  if (section.images?.length) {
+    const gallery = element("div", "event-image-grid");
+    section.images.forEach((item) => {
+      const figure = element("figure", "event-image-card");
+      const image = element("img");
+      image.src = item.src;
+      image.alt = item.alt || item.caption || "Creative Classroom event image";
+      figure.append(image);
+      if (item.caption) figure.append(element("figcaption", "", item.caption));
+      gallery.append(figure);
+    });
+    article.append(gallery);
   }
 
   if (section.people?.length) {
     const people = element("div", "people-grid");
     section.people.forEach((person) => {
       const card = element("article", "person-card");
+      if (person.image) {
+        const image = element("img", "person-photo");
+        image.src = person.image;
+        image.alt = `${person.name} headshot`;
+        card.append(image);
+      }
       card.append(element("h3", "", person.name));
       card.append(element("p", "person-role", person.role));
       card.append(element("p", "", person.bio));
