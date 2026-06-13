@@ -5,6 +5,7 @@ Frontend-only redesign of the Creative Classroom x NECINA website.
 ## What is preserved
 
 - Primary navigation links from the original site.
+- Local category pages for About, Camp, Videos, Past Events, Team, and Partners so visitors do not get sent back to Wix.
 - 2026 Leadership Camp signup CTA linking to the existing Google Form.
 - About, PVSA, program, team, partner, and email contact links.
 - Impact metrics, mission copy, testimonials, and original Wix-hosted imagery.
