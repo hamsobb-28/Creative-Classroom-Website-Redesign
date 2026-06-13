@@ -1,6 +1,6 @@
 # Creative Classroom Website Redesign
 
-Frontend-only redesign of the Creative Classroom Wix site.
+Frontend-only redesign of the Creative Classroom x NECINA website.
 
 ## What is preserved
 
