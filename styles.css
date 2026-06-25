@@ -592,7 +592,7 @@ h2 {
 
 .signup-form input:focus {
   border-color: var(--teal);
-  outline: 3px solid rgba(15, 139, 141, 0.18);
+  outline: 3px solid rgba(198, 151, 255, 0.28);
 }
 
 .form-note {
