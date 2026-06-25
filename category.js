@@ -90,8 +90,8 @@ function renderSection(section) {
         card.append(image);
       }
       card.append(element("h3", "", person.name));
-      card.append(element("p", "person-role", person.role));
-      card.append(element("p", "", person.bio));
+      if (person.role) card.append(element("p", "person-role", person.role));
+      if (person.bio) card.append(element("p", "", person.bio));
       people.append(card);
     });
     article.append(people);

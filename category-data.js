@@ -178,28 +178,71 @@ window.CATEGORY_PAGES = {
       {
         heading: "2026 Leadership Camp Team",
         people: [
-          { name: "Mira Zhong", role: "Co-Director", image: "https://static.wixstatic.com/media/eab718_e6420200fd7046929e53e88a845b469d~mv2.webp/v1/fill/w_145,h_145,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image%20(7).webp", bio: "Mira is a rising junior at Sharon High School who is passionate about baking, leadership, and community service. She co-founded a baking business that raised over $2,000 and serves as Head of Marketing for a nonprofit." },
-          { name: "Grace Zheng", role: "Co-Director", image: "https://static.wixstatic.com/media/62a804_7983edae38f3446abc150f7b8fbc0527~mv2.png/v1/fill/w_143,h_143,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited_edited_edited_edited.png", bio: "Grace is a rising junior at Phillips Academy Andover who founded and led Sharon Middle School's Chamber Orchestra for two years. She has experience in public speaking, teaching, and coaching." },
-          { name: "Daniel Gao", role: "Senior Instructor", image: "https://static.wixstatic.com/media/eab718_c2c5acd97b10418a9246329eee822967~mv2.png/v1/fill/w_157,h_157,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-04-11%209_29_40%20PM.png", bio: "Daniel is an incoming junior at Sharon High School who is nationally ranked in swimming and active in debate and public speaking. He co-founded a keyboard business and tutors younger students." },
-          { name: "Kensei Hanamura", role: "Instructor", image: "https://static.wixstatic.com/media/eab718_c36beb5aa5a74074b6190766ce9d2be0~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image%20(5)_edited.jpg", bio: "Kensei is a rising junior at Sharon High School who is involved in environmental leadership through the Sustainable Sharon Coalition and volunteers at his Japanese school." },
-          { name: "Hanson Zhu", role: "Instructor", image: "https://static.wixstatic.com/media/62a804_3ef0afe7a24b4f1385659807d0965b47~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited_edited.jpg", bio: "Hanson is an incoming junior at Sharon High School who is a nationally ranked badminton player and award-winning pianist with experience in coding, robotics, teaching, and club leadership." },
-          { name: "Hannah Eom", role: "Teaching Assistant", image: "https://static.wixstatic.com/media/62a804_4a6fc60f9b224758a2a6458f35f3150e~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Hannah is an incoming junior at Sharon High School who teaches STEAM topics, assists in after-care programs, and supports nonprofit fundraising and outreach." },
-          { name: "Helen Huang", role: "Secretary", image: "https://static.wixstatic.com/media/62a804_a06e229f666f4fbda49e330f0965c834~mv2.jpg/v1/crop/x_16,y_0,w_846,h_862/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Helen is a rising sophomore at The Winsor School who has demonstrated leadership in athletics, community service, and debate." },
-          { name: "Wynne Liu", role: "Team Member", image: "https://static.wixstatic.com/media/62a804_c0255ac2714041828b0f09cbac94d1a3~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Wynne is a rising junior at Sharon High School who co-founded a club creating crafts for hospital donations and has experience teaching, planning events, and nonprofit social media work." },
-          { name: "Alyssa Liang", role: "Team Member", image: "https://static.wixstatic.com/media/62a804_1be50c9b955749d789b1b96ff5559071~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Alyssa is a rising 8th grader at The Winsor School who has served as a camp assistant for previous leadership programs." },
-          { name: "Charles He", role: "Team Member", image: "https://static.wixstatic.com/media/62a804_737b3c3ae5344759a53ec34e4e6b4af2~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Charles is a rising sophomore at Sharon High School and a swimmer at Bluefish Swim Club with coding and volunteer experience." },
-          { name: "Michelle Zheng", role: "Team Member", image: "https://static.wixstatic.com/media/62a804_c3307fabb12b497397d4d2cae734a539~mv2.png/v1/fill/w_157,h_157,al_c,lg_1,q_85,enc_avif,quality_auto/62a804_c3307fabb12b497397d4d2cae734a539~mv2.png", bio: "Michelle is a rising junior at Sharon High School who has excelled in competitive math, serves as the math lead for SMST, and is a varsity athlete." }
+          { name: "Mira Zhong", role: "Co-Director", image: "https://static.wixstatic.com/media/eab718_e6420200fd7046929e53e88a845b469d~mv2.webp/v1/fill/w_145,h_145,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image%20(7).webp", bio: "Mira is a rising junior at Sharon High School who is passionate about baking, leadership, and community service. She co-founded a baking business that raised over $2,000 and serves as Head of Marketing for a nonprofit, while also working as a teaching assistant and volunteering at her local elementary school." },
+          { name: "Grace Zheng", role: "Co-Director", image: "https://static.wixstatic.com/media/62a804_7983edae38f3446abc150f7b8fbc0527~mv2.png/v1/fill/w_143,h_143,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited_edited_edited_edited.png", bio: "Grace is a rising junior at Phillips Academy Andover who founded and led Sharon Middle School's Chamber Orchestra for two years. She has experience in public speaking, teaching, and coaching, and is excited to help students grow at camp." },
+          { name: "Daniel Gao", role: "Senior Instructor", image: "https://static.wixstatic.com/media/eab718_c2c5acd97b10418a9246329eee822967~mv2.png/v1/fill/w_157,h_157,al_c,q_85,usm_0.66_1.00_0.01,enc_avif,quality_auto/Screenshot%202026-04-11%209_29_40%20PM.png", bio: "Daniel is an incoming junior at Sharon High School who is nationally ranked in swimming and active in debate and public speaking. He co-founded a keyboard business, tutors younger students, and is excited to help campers develop leadership skills." },
+          { name: "Kensei Hanamura", role: "Instructor", image: "https://static.wixstatic.com/media/eab718_c36beb5aa5a74074b6190766ce9d2be0~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image%20(5)_edited.jpg", bio: "Kensei is a rising junior at Sharon High School who is involved in environmental leadership through the Sustainable Sharon Coalition. He also volunteers at his Japanese school and enjoys working with younger students to build problem-solving skills." },
+          { name: "Hanson Zhu", role: "Senior Instructor", image: "https://static.wixstatic.com/media/62a804_3ef0afe7a24b4f1385659807d0965b47~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited_edited.jpg", bio: "Hanson is an incoming junior at Sharon High School who is a nationally ranked badminton player and an award-winning pianist. He has experience in coding, robotics, and teaching, and has co-founded both a school club and a keyboard business." },
+          { name: "Hannah Eom", role: "Teaching Assistant", image: "https://static.wixstatic.com/media/62a804_4a6fc60f9b224758a2a6458f35f3150e~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Hannah is an incoming junior at Sharon High School who is involved in organizations that support and educate children. She teaches STEAM topics, assists in after-care programs, and helps lead fundraising and outreach efforts for a nonprofit." },
+          { name: "Helen Huang", role: "Secretary", image: "https://static.wixstatic.com/media/62a804_a06e229f666f4fbda49e330f0965c834~mv2.jpg/v1/crop/x_16,y_0,w_846,h_862/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Helen is a rising sophomore at The Winsor School who has demonstrated leadership in athletics, community service, and debate. She is passionate about helping students build confidence and develop leadership and public speaking skills." },
+          { name: "Wynne Liu", role: "Teaching Assistant", image: "https://static.wixstatic.com/media/62a804_c0255ac2714041828b0f09cbac94d1a3~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Wynne is a rising junior at Sharon High School who co-founded a club that creates crafts for hospital donations. She is active in multiple organizations and has experience teaching, event planning, and nonprofit social media work." },
+          { name: "Alyssa Liang", role: "Secretary", image: "https://static.wixstatic.com/media/62a804_1be50c9b955749d789b1b96ff5559071~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Alyssa is a rising 8th grader at The Winsor School who has served as a camp assistant for previous leadership programs. She has strong experience in communication, logistics, and volunteering, and is excited to support this year's camp." },
+          { name: "Charles He", role: "Teaching Assistant", image: "https://static.wixstatic.com/media/62a804_737b3c3ae5344759a53ec34e4e6b4af2~mv2.jpg/v1/fill/w_157,h_157,al_c,q_80,usm_0.66_1.00_0.01,enc_avif,quality_auto/image_edited.jpg", bio: "Charles is a rising sophomore at Sharon High School and a swimmer at Bluefish Swim Club. He has experience in coding, volunteering with children with disabilities, and previously served as a teaching assistant for this camp." },
+          { name: "Michelle Zheng", role: "Teaching Assistant", image: "https://static.wixstatic.com/media/62a804_c3307fabb12b497397d4d2cae734a539~mv2.png/v1/fill/w_157,h_157,al_c,lg_1,q_85,enc_avif,quality_auto/62a804_c3307fabb12b497397d4d2cae734a539~mv2.png", bio: "Michelle is a rising junior at Sharon High School who has excelled in competitive math, placing highly at major tournaments and serving as the math lead for SMST. She is also a varsity athlete and looks forward to returning as a senior TA to support and teach younger students." }
         ]
       },
       {
-        heading: "Past teams",
-        cards: [
-          "2025 Leadership Camp Team",
-          "2024 Leadership Camp Team",
-          "2024 Public Speaking Club Team",
-          "2023 Public Speaking Club Team",
-          "2023 Leadership Camp Team",
-          "Founding Members"
+        heading: "2025 Leadership Camp Team",
+        people: [
+          { name: "Sophie Liang", role: "Co-Director" },
+          { name: "Emma Liu", role: "Co-Director" },
+          { name: "Daniel Gao", role: "Teaching Assistant" },
+          { name: "Kensei Hanamura", role: "Teaching Assistant" },
+          { name: "Mira Zhong", role: "Teaching Assistant" },
+          { name: "Grace Zheng", role: "Teaching Assistant" },
+          { name: "Hanson Zhu", role: "Teaching Assistant" },
+          { name: "Helen Huang", role: "Teaching Assistant" },
+          { name: "Alyssa Liang", role: "Project Assistant" }
+        ]
+      },
+      {
+        heading: "2024 Leadership Camp Team",
+        people: [
+          { name: "Sophie Liang", role: "Camp Leader" },
+          { name: "Daniel Gao", role: "Assistant Instructor" },
+          { name: "Emma Liu", role: "Instructor" },
+          { name: "Hanson Zhu", role: "Assistant Instructor" },
+          { name: "Angelina Yu", role: "Instructor" },
+          { name: "Alyssa Liang", role: "Project Assistant" },
+          { name: "Ms. Ru Zheng, MBA", role: "Professional Coach" }
+        ]
+      },
+      {
+        heading: "2024 Public Speaking Club Team",
+        people: [
+          { name: "Emma Liu", role: "Club Leader, Sharon High School" },
+          { name: "Sophie Liang", role: "Mentor, Sharon High School" }
+        ]
+      },
+      {
+        heading: "2023 Public Speaking Club Team",
+        people: [
+          { name: "Yuyuan Huang", role: "Club Leader, The Winsor School" },
+          { name: "Angelina Yu", role: "Mentor, Commonwealth School" }
+        ]
+      },
+      {
+        heading: "2023 Leadership Camp Team",
+        people: [
+          { name: "Sunny Hong", role: "Head Coach, Bain Consulting" },
+          { name: "Sophie Liang", role: "Counselor, Sharon High School" }
+        ]
+      },
+      {
+        heading: "Founding Members",
+        people: [
+          { name: "Yuyuan Huang", role: "Co-Founder, The Winsor School" },
+          { name: "Beatrix Picotte", role: "Co-Founder, The Winsor School" }
         ]
       }
     ]
