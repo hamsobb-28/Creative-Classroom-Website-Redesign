@@ -1,14 +1,14 @@
 :root {
-  --ink: #2b074d;
-  --muted: #626262;
-  --paper: #fffaf5;
-  --cream: #fff8d6;
-  --sun: #ffd983;
-  --coral: #ff9fb6;
-  --teal: #c697ff;
-  --leaf: #7fa88b;
-  --line: rgba(43, 7, 77, 0.16);
-  --shadow: 0 24px 70px rgba(43, 7, 77, 0.16);
+  --ink: #22201e;
+  --muted: #666360;
+  --paper: #f8f4f1;
+  --cream: #fff3c8;
+  --sun: #f4ca5c;
+  --coral: #ec7f75;
+  --teal: #2c658f;
+  --leaf: #68a866;
+  --line: rgba(34, 32, 30, 0.15);
+  --shadow: 0 24px 70px rgba(44, 101, 143, 0.18);
   --radius: 8px;
   font-family: Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
 }
@@ -64,7 +64,7 @@ a {
   top: 0;
   z-index: 10;
   border-bottom: 1px solid var(--line);
-  background: rgba(255, 250, 245, 0.92);
+  background: rgba(248, 244, 241, 0.92);
   backdrop-filter: blur(14px);
 }
 
@@ -170,7 +170,7 @@ a {
     position: absolute;
     top: 28px;
     left: 0;
-    box-shadow: 0 1px 0 var(--line), 0 18px 42px rgba(43, 7, 77, 0.12);
+    box-shadow: 0 1px 0 var(--line), 0 18px 42px rgba(44, 101, 143, 0.14);
   }
 
   .nav-dropdown[open] > a:nth-of-type(2) {
@@ -260,7 +260,7 @@ a {
 .hero::after {
   position: absolute;
   inset: 0;
-  background: linear-gradient(90deg, rgba(43, 7, 77, 0.9), rgba(43, 7, 77, 0.46) 55%, rgba(43, 7, 77, 0.14));
+  background: linear-gradient(90deg, rgba(34, 32, 30, 0.86), rgba(44, 101, 143, 0.45) 55%, rgba(145, 208, 250, 0.16));
   content: "";
 }
 
@@ -338,7 +338,7 @@ h2 {
 }
 
 .button.primary:hover {
-  background: #f47fa0;
+  background: #d16b61;
 }
 
 .button.secondary {
@@ -379,7 +379,7 @@ h2 {
   border: 1px solid var(--line);
   border-radius: var(--radius);
   background: white;
-  box-shadow: 0 12px 36px rgba(43, 7, 77, 0.07);
+  box-shadow: 0 12px 36px rgba(44, 101, 143, 0.08);
 }
 
 .impact-grid article {
@@ -425,7 +425,7 @@ h2 {
   display: grid;
   place-items: center;
   border-radius: var(--radius);
-  background: #f2e5ff;
+  background: #d9edf8;
 }
 
 .mission-image img {
@@ -453,7 +453,7 @@ h2 {
 }
 
 .testimonials {
-  background: linear-gradient(180deg, transparent 0, transparent 18%, #fff8d6 18%, #fff8d6 100%);
+  background: linear-gradient(180deg, transparent 0, transparent 18%, #fff3c8 18%, #fff3c8 100%);
   max-width: none;
 }
 
@@ -531,7 +531,7 @@ h2 {
   width: 12px;
   height: 12px;
   border-radius: 50%;
-  background: rgba(43, 7, 77, 0.25);
+  background: rgba(34, 32, 30, 0.25);
   content: "";
 }
 
@@ -556,7 +556,7 @@ h2 {
   min-height: 420px;
   border-radius: var(--radius);
   object-fit: cover;
-  box-shadow: 0 14px 44px rgba(43, 7, 77, 0.12);
+  box-shadow: 0 14px 44px rgba(44, 101, 143, 0.14);
 }
 
 .contact-panel {
@@ -592,7 +592,7 @@ h2 {
 
 .signup-form input:focus {
   border-color: var(--teal);
-  outline: 3px solid rgba(198, 151, 255, 0.28);
+  outline: 3px solid rgba(145, 208, 250, 0.38);
 }
 
 .form-note {
@@ -602,7 +602,7 @@ h2 {
 }
 
 .form-note.error {
-  color: #b4236b;
+  color: #9e4d45;
 }
 
 .form-note.success {
@@ -680,7 +680,7 @@ h2 {
   border-radius: var(--radius);
   background: white;
   padding: clamp(26px, 4vw, 46px);
-  box-shadow: 0 12px 36px rgba(43, 7, 77, 0.07);
+  box-shadow: 0 12px 36px rgba(44, 101, 143, 0.08);
 }
 
 .category-section h2 {
@@ -758,7 +758,7 @@ h2 {
   margin-bottom: 18px;
   border-radius: 50%;
   object-fit: cover;
-  box-shadow: 0 10px 28px rgba(43, 7, 77, 0.16);
+  box-shadow: 0 10px 28px rgba(44, 101, 143, 0.18);
 }
 
 .person-card .person-role {
